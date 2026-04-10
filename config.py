@@ -40,8 +40,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VibeBots")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/VibeBotsSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/as3lt")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/as3lt")
 
 AUTO_END_VC_STREAM = getenv("AUTO_END_VC_STREAM", "false").lower() in ("true", "1")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "false").lower() in ("true", "1")
@@ -79,8 +79,8 @@ confirmer = {}
 file_cache: dict[str, float] = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/ihr1qu.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/fhycjz.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/yda5xv.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/yda5xv.jpg")
 
 PLAYLIST_IMG_URL = "https://files.catbox.moe/v7u8ji.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/fhycjz.jpg"
