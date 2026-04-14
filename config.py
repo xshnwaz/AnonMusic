@@ -79,8 +79,8 @@ confirmer = {}
 file_cache: dict[str, float] = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/yda5xv.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/yda5xv.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://litter.catbox.moe/hh4dweluh9f0dcrl.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://litter.catbox.moe/hh4dweluh9f0dcrl.jpg")
 
 PLAYLIST_IMG_URL = "https://files.catbox.moe/v7u8ji.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/fhycjz.jpg"
